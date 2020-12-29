@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 /**
- * @author: CC
+ * @author: CCC
  * @date: 2020/12/29 11:29
  * @Description: 出租车信息
  */
