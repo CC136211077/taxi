@@ -1,20 +1,22 @@
 package com.cc.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author: CCC
+ * @author: CC
  * @date: 2020/12/29 11:29
  * @Description: 出租车信息
  */
 @Data
+@Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class TaxiInfo {
+@Builder
+public class TaxiInfo implements Serializable {
     /**
      * 车票号
      */
